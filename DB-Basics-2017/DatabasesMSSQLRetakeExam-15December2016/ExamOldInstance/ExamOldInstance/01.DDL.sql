@@ -1,0 +1,62 @@
+CREATE DATABASE TheNerdHerd
+go
+USE TheNerdHerd
+go
+
+
+CREATE TABLE Locations
+(
+Id INT IDENTITY,
+Latitude FLOAT,
+Longitude FLOAT,
+CONSTRAINT PK_Locations PRIMARY KEY (Id)
+)
+
+CREATE TABLE Credentials
+(
+Id INT IDENTITY,
+Email VARCHAR(30),
+Password VARCHAR (20),
+CONSTRAINT PK_Credentials PRIMARY KEY (Id)
+)
+
+CREATE TABLE Users
+(
+Id INT IDENTITY,
+Nickname VARCHAR(25),
+Gender CHAR(1),
+Age INT,
+LocationId INT,
+CredentialId INT,
+CONSTRAINT PK_Users PRIMARY KEY (Id),
+CONSTRAINT FK_Users_Credentials FOREIGN KEY (CredentialId) REFERENCES Credentials(Id),
+CONSTRAINT FK_Users_Locations FOREIGN KEY (LocationId) REFERENCES Locations(Id),
+CONSTRAINT U_Users_CredentialsId UNIQUE (CredentialId)
+)
+
+CREATE TABLE Chats
+(
+Id INT IDENTITY,
+Title VARCHAR(32),
+StartDate DATE,
+IsActive BIT,
+CONSTRAINT PK_Chats PRIMARY KEY (Id)
+)
+
+CREATE TABLE Messages
+(
+Id INT PRIMARY KEY IDENTITY,
+Content VARCHAR(200),
+SentOn DATE,
+ChatId INT FOREIGN KEY REFERENCES Chats(Id),
+UserId INT FOREIGN KEY REFERENCES Users(Id)
+)
+
+CREATE TABLE UsersChats
+(
+UserId INT,
+ChatId INT,
+CONSTRAINT PK_UsersChats PRIMARY KEY(ChatId, UserId),
+CONSTRAINT FK_UsersChats_Chats FOREIGN KEY(ChatId) REFERENCES Chats(Id),
+CONSTRAINT FK_UsersChats_Users FOREIGN KEY(UserId) REFERENCES Users(Id)
+)
