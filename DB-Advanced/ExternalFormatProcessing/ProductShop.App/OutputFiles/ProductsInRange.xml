@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product name="TYLENOL COLD MULTI-SYMPTOM DAYTIME" price="1010.81" buyer="Anna Clark" />
+  <product name="Butalbital, Aspirin and Caffeine" price="1010.98" buyer="Gary Stevens" />
+  <product name="CVS Therapeutic Menthol Pain Reliever" price="1033.42" buyer=" Thompson" />
+  <product name="Ringers" price="1054.37" buyer="Anna Parker" />
+  <product name="Acetic Acid" price="1060.43" buyer="Billy Parker" />
+  <product name="LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF 15" price="1069.43" buyer=" Schmidt" />
+  <product name="up and up temporary minor arthritis pain relief" price="1085.78" buyer=" Cunningham" />
+  <product name="XANTHIUM STRUMARIUM VAR CANADENSE POLLEN" price="1091.38" buyer="Jacqueline Perez" />
+  <product name="smart sense nighttime cold and flu relief" price="1101.77" buyer=" Schmidt" />
+  <product name="PREMIER VALUE ALLERGY" price="1127.61" buyer="Jean Henry" />
+  <product name="Lorazepam" price="1134.96" buyer="Sarah Day" />
+  <product name="Pollens - Trees, Birch Mix" price="1153.54" buyer="Billy Parker" />
+  <product name="leader pain reliever" price="1179.79" buyer="Patricia Fuller" />
+  <product name="Topical 60 Sec Sodium Fluoride" price="1228.84" buyer="Betty Lawson" />
+  <product name="Ondansetron" price="1249.76" buyer="Christine Gomez" />
+  <product name="Prednisone" price="1285.99" buyer="Clarence Fowler" />
+  <product name="Zonisamide" price="1305.41" buyer="Sarah Day" />
+  <product name="Ibuprofen" price="1305.96" buyer="Eugene Stewart" />
+  <product name="Hydralazine Hydrochloride" price="1309.72" buyer="Rachel Johnson" />
+  <product name="Fosphenytoin Sodium" price="1334.06" buyer="Carl Daniels" />
+  <product name="Labetalol Hydrochloride" price="1345.11" buyer="Nicole Martinez" />
+  <product name="MEDICATED DANDRUFF" price="1351.02" buyer="Billy Parker" />
+  <product name="PCA SKIN ACNE" price="1356.22" buyer="Fred Barnes" />
+  <product name="EMEND" price="1365.51" buyer="Nicole Martinez" />
+  <product name="Warfarin Sodium" price="1379.79" buyer="Fred Barnes" />
+  <product name="Fair Foundation SPF 15" price="1394.24" buyer="Clarence Fowler" />
+  <product name="Triamterene and Hydrochlorothiazide" price="1416.59" buyer="Gloria Alexander" />
+  <product name="smart sense nicotine" price="1444.12" buyer="Gloria Alexander" />
+  <product name="Amitriptyline Hydrochloride" price="1453.96" buyer="Nicole Harris" />
+  <product name="Gilotrif" price="1454.77" buyer="Patricia Fuller" />
+  <product name="GEMCITABINE" price="1468.11" buyer="Anna Clark" />
+  <product name="cough and sore throat" price="1482.68" buyer=" Mitchell" />
+  <product name="Alcohol Free Antiseptic" price="1486.07" buyer="Doris Cook" />
+  <product name="Budpak Hemorrhoid Anesthetic" price="1499.29" buyer="Diana Harvey" />
+</products>
